@@ -11,5 +11,6 @@ https://apps.apple.com/us/app/paint-me-the-fruits/id1567160135
 
 #INSTALL
 --------------
-$ cd Pintar
-$ npm install
+- $cd Pintar
+- $npm install
+- $npm start
