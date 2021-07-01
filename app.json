@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "vidente",
-    "slug": "vidente",
+    "name": "Apprender",
+    "slug": "aprender",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "landscape",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
+      "resizeMode": "cover",
       "backgroundColor": "#ffffff"
     },
     "updates": {
@@ -17,16 +17,26 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.hologramestudio.paintmethefruits",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {}
     },
     "android": {
+      "permissions": [],
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "backgroundColor": "#000"
+      },
+      "package": "com.hologramestudio.paintmethefruits",
+      "versionCode": 1
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "androidStatusBar": {
+      "backgroundColor": "#000",
+      "translucent": true
+    },
+    "androidNavigationBar": {
+      "backgroundColor": "#000000"
     }
   }
 }
