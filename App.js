@@ -12,7 +12,7 @@ import { Ionicons,saaasa } from '@expo/vector-icons';
 import Lapiz from "./components/lapiz.js";
 import Goma from "./components/goma.js";
 
-
+ 
 
 //Escenarios
 import Naranja from "./escenarios/naranja.js";
